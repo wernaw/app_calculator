@@ -1,5 +1,7 @@
 [![Python application](https://github.com/wernaw/app_calculator/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/wernaw/app_calculator/actions/workflows/python-app.yml)
 
+[![Pylint](https://github.com/wernaw/app_calculator/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/wernaw/app_calculator/actions/workflows/pylint.yml)
+
 # Flask Calculator App
 
 A simple **Flask** web application that provides basic arithmetic operations: **sum**, **subtract**, **multiply**, and **divide**.  
