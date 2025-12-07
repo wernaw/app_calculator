@@ -62,7 +62,18 @@ def calculate():
     }
 
     result = operations_map[operation]()
-    return str(result)
+
+    op_string = ''
+    if operation == "multiply":
+        op_string = f"{arg1} x {arg2} = {result}"
+    elif operation == "divide":
+        op_string = f"{arg1} / {arg2} = {result}"
+    elif operation == "subtract":
+        op_string = f"{arg1} - {arg2} = {result}"
+    elif operation == "add":
+        op_string = f"{arg1} + {arg2} = {result}"
+
+    return str(op_string)
 
 
 if __name__ == "__main__":
